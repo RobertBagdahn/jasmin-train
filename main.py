@@ -57,6 +57,7 @@ def main():
         weightInKg=weightInKg,
     )
     print(f"Your daily energy need is {energyKj} kJ")
+    
     return energyKj
 
 
