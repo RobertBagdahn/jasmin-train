@@ -56,7 +56,6 @@ def main():
         heigthInCm=heigthInCm,
         weightInKg=weightInKg,
     )
-
     print(f"Your daily energy need is {energyKj} kJ")
     return energyKj
 
