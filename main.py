@@ -85,9 +85,9 @@ def main():
 
     # inputdata
     gender = "male"  # or female or divers
-    ageInYear = 30
+    ageInYear = 15
     activityFactor = (
-        1.6  # 1.6 for normal activity, 1.4 for less activity, 1.8 for more activity
+        1.8  # 1.6 for normal activity, 1.4 for less activity, 1.8 for more activity
     )
 
     heigthInCm = getHeigthByAgeAndGender(ageInYear=ageInYear, gender=gender)
